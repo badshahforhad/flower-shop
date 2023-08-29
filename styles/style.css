@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #272727;
 }
 
@@ -114,12 +117,12 @@ nav a {
 
 
 /* tree section */
-.flower-tree-section{
-    justify-content:center;
+.flower-tree-section {
+    justify-content: center;
     display: flex;
 }
 
-.pink-color-tree{
+.pink-color-tree {
     width: 400px;
     height: 440px;
     background: rgba(167, 33, 98, 0.15);
@@ -127,19 +130,19 @@ nav a {
     margin-right: 20px;
 }
 
-.pink-tulip img{
+.pink-tulip img {
     height: 360px;
     margin-top: 80px;
     margin-left: 60px;
 }
 
-.pink-color-tree > h3{
+.pink-color-tree>h3 {
     text-decoration: underline;
     text-align: center;
     padding-top: 20px;
 }
 
-.red-color-tree{
+.red-color-tree {
     width: 400px;
     height: 440px;
     background: rgba(5, 151, 160, 0.15);
@@ -147,19 +150,19 @@ nav a {
     margin-right: 20px;
 }
 
-.red-flower img{
+.red-flower img {
     height: 360px;
     margin-top: 80px;
     margin-left: 25px;
 }
 
-.red-color-tree > h3{
+.red-color-tree>h3 {
     text-decoration: underline;
     text-align: center;
     padding-top: 20px;
 }
 
-.yellow-color-tree{
+.yellow-color-tree {
     width: 400px;
     height: 440px;
     background: rgba(71, 125, 17, 0.15);
@@ -167,13 +170,13 @@ nav a {
 
 }
 
-.yellow-tulip img{
+.yellow-tulip img {
     height: 360px;
     margin-top: 80px;
     margin-left: 60px;
 }
 
-.yellow-color-tree > h3{
+.yellow-color-tree>h3 {
     text-decoration: underline;
     text-align: center;
     padding-top: 20px;
@@ -188,7 +191,8 @@ nav a {
     justify-content: space-between;
     margin-top: 150px;
 }
-.deal-details{
+
+.deal-details {
     margin: 100px 0 0 110px;
 }
 
@@ -197,8 +201,8 @@ nav a {
     font-weight: 700;
 }
 
-.off{
-    color:#E55473;
+.off {
+    color: #E55473;
 }
 
 .deal-description {
@@ -249,27 +253,66 @@ nav a {
 
 
 /* instagram flower section */
-.instagram-flower-section{
+.instagram-flower-section {
     display: flex;
     justify-content: center;
 }
 
-.flower-one{
+.flower-one {
     width: 330px;
     height: 300px;
     margin-right: 20px;
 }
-.flower-two{
+
+.flower-two {
     width: 330px;
     height: 300px;
     margin-right: 20px;
 }
-.flower-three{
+
+.flower-three {
     width: 330px;
     height: 300px;
     margin-right: 20px;
 }
-.flower-four{
+
+.flower-four {
     width: 330px;
     height: 300px;
+}
+
+
+/* latest deal */
+
+
+
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.footer h1 {
+    color: #FFF;
+}
+
+.footer-text-color{
+    color: #E55473;
+}
+
+.footer p {
+    color: rgba(180, 179, 179, 0.9);
+    line-height: 20px;
+    padding-top: 20px;
+
+}
+
+.copyright{
+   color: rgba(153, 152, 152, 0.9);
+   font-size: 14px;
 }
