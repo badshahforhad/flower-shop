@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    color: #272727;
+}
+
 /* universal font family */
 body {
     font-family: 'Lato', sans-serif;
@@ -18,6 +25,10 @@ header {
     color: #000;
     font-size: 30px;
     font-weight: 700;
+}
+
+.websiteName-shop {
+    color: #E55473;
 }
 
 nav {
@@ -47,7 +58,7 @@ nav a {
 /* banner style */
 .banner {
     background-color: #FDEEF1;
-    padding: 80px 200px 0;
+    padding: 70px 200px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -57,9 +68,8 @@ nav a {
 }
 
 .banner-title {
-    font-size: 60px;
+    font-size: 62px;
     font-weight: 700;
-    color: #272727;
 }
 
 .banner-description {
@@ -71,7 +81,7 @@ nav a {
 }
 
 .banner .banner-image {
-    width: 400px;
+    width: 500px;
 }
 
 .banner .shop-now {
@@ -84,3 +94,123 @@ nav a {
     font-weight: 700;
 
 }
+
+
+/* featured-section */
+.featured-section {
+    margin-top: 150px;
+}
+
+.featured-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.featured-description {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+/* tree section */
+.flower-tree-section{
+    justify-content:center;
+    display: flex;
+}
+
+.pink-color-tree{
+    width: 400px;
+    height: 440px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+}
+
+.pink-tulip img{
+    height: 360px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.pink-color-tree > h3{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.red-color-tree{
+    width: 400px;
+    height: 440px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+}
+
+.red-flower img{
+    height: 360px;
+    margin-top: 80px;
+    margin-left: 25px;
+}
+
+.red-color-tree > h3{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.yellow-color-tree{
+    width: 400px;
+    height: 440px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.yellow-tulip img{
+    height: 360px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.yellow-color-tree > h3{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+
+/* .tree-section {
+    display: flex;
+    justify-content: center;
+}
+
+.pink-tree {
+    width: 400px;
+    height: 440px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding-bottom: 20px;
+    padding-left: ;
+}
+
+.pink-tree img {
+    margin-top: 80px;
+    height: 360px;
+    margin-left: 35px;
+}
+
+.flower-tree-two .flower-tree-three{
+    margin-left: 20px;
+}
+
+
+.flower-tree-one,.flower-tree-two .flower-tree-three, h3 {
+    text-decoration: underline;
+} */
