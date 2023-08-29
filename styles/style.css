@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* universal font family */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header styles */
+header {
+    background-color: #FDEEF1;
+}
+
+.websiteName {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    padding-top: 50px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+/* banner style */
+.banner {
+    background-color: #FDEEF1;
+    padding: 80px 200px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-details {
+    padding-top: 60px;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #272727;
+}
+
+.banner-description {
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner .banner-image {
+    width: 400px;
+}
+
+.banner .shop-now {
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
