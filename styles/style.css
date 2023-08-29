@@ -3,10 +3,7 @@
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1,h2,h3,h4 {
     color: #272727;
 }
 
@@ -183,34 +180,96 @@ nav a {
 }
 
 
+/* hot deal section */
+.hot-deal {
+    background-color: #FDEEF1;
+    padding: 100px 200px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.deal-details{
+    margin: 100px 0 0 110px;
+}
+
+.deal-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.off{
+    color:#E55473;
+}
+
+.deal-description {
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.deal-image {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.sign-up {
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 155px;
+
+}
 
 
+/* instagram section */
+.instagram-section {
+    margin-top: 150px;
+}
 
-/* .tree-section {
+.instagram-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.instagram-description {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+
+/* instagram flower section */
+.instagram-flower-section{
     display: flex;
     justify-content: center;
 }
 
-.pink-tree {
-    width: 400px;
-    height: 440px;
-    background: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    padding-bottom: 20px;
-    padding-left: ;
+.flower-one{
+    width: 330px;
+    height: 300px;
+    margin-right: 20px;
 }
-
-.pink-tree img {
-    margin-top: 80px;
-    height: 360px;
-    margin-left: 35px;
+.flower-two{
+    width: 330px;
+    height: 300px;
+    margin-right: 20px;
 }
-
-.flower-tree-two .flower-tree-three{
-    margin-left: 20px;
+.flower-three{
+    width: 330px;
+    height: 300px;
+    margin-right: 20px;
 }
-
-
-.flower-tree-one,.flower-tree-two .flower-tree-three, h3 {
-    text-decoration: underline;
-} */
+.flower-four{
+    width: 330px;
+    height: 300px;
+}
